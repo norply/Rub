@@ -615,6 +615,88 @@ void fun()// вывод словами от 1 до 99 рублей
 
     }
 }
+void fun2()// вывод словами сотен числа
+{
+    short ost;// остаток от деления
+    ost = n % 1000;
+    ost = ost / 100;
+    switch (ost)
+    {
+    case 1:
+    {
+        cout << "сто ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+
+        break;
+    }
+    case 2:
+    {
+        cout << "двести ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 3:
+    {
+        cout << "триста ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 4:
+    {
+        cout << "четыреста ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 5:
+    {
+        cout << "пятьсот ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 6:
+    {
+        cout << "шестьсот ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 7:
+    {
+        cout << "семьсот ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 8:
+    {
+        cout << "восемьсот ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    case 9:
+    {
+        cout << "девятьсот ";
+        if (n % 100 == 0)
+            cout << "рублей";
+        fun();
+        break;
+    }
+    }
+}
 int main()
 {
     
