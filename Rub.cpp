@@ -699,5 +699,25 @@ void fun2()// вывод словами сотен числа
 }
 int main()
 {
-    
+    short ost;// остаток от деления
+    setlocale(LC_ALL, "Russian");
+    cout << "Введите цифрами целое число от 1 до 9999: ";
+    for (;;) // проверка ввода
+    {
+        cin >> ent;
+        if (!cin)
+            cout << "Введите ЦИФРАМИ ЦЕЛОЕ число от 1 до 9999: ";
+        else
+            if (ent < 1 || ent > 9999)
+                cout << "Введите число от 1 до 9999: ";
+            else
+            if(short(ent)!=ent)
+                cout << "Введите ЦИФРАМИ ЦЕЛОЕ число от 1 до 9999: ";
+            else
+        
+                break;
+        cin.clear();
+        cin.ignore(100, '\n');
+    }
+    n = ent;
 }
