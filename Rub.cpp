@@ -720,4 +720,93 @@ int main()
         cin.ignore(100, '\n');
     }
     n = ent;
+    cout << "Результат: ";
+    if (n<100)
+    fun();
+        
+    if (n >= 100 && n < 1000)
+        fun2();
+            else
+            {
+                
+                ost = n / 1000;
+                switch (ost) 
+                {
+                case 1:
+                {
+                    cout << "тысяча ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 2:
+                {
+                    cout << "две тысячи ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 3:
+                {
+                    cout << "три тысячи ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 4:
+                
+                {
+                        cout << "четыре тысячи ";
+                        if (n % 1000 == 0)
+                            cout << "рублей";
+                        fun2();
+                        break;
+                }
+                
+                case 5:
+                {
+                    cout << "пять тысяч ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 6:
+                {
+                    cout << "шесть тысяч ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 7:
+                {
+                    cout << "семь тысяч ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 8:
+                {
+                    cout << "восемь тысяч ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+                case 9:
+                {
+                    cout << "девять тысяч ";
+                    if (n % 1000 == 0)
+                        cout << "рублей";
+                    fun2();
+                    break;
+                }
+
+                }
+            }
 }
